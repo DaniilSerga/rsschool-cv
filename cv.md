@@ -79,7 +79,7 @@ function rgb(r, g, b) {
 ---
 
 ### Languages:
-+ English -  B2/C1 Upper-intermediate/Advanced (according to the online test at [EF Set](https://www.efset.org/))
++ English -  B2/C1 Upper-intermediate/Advanced (according to the online test at [EF Set](https://www.efset.org/)) <br/>
 ![English level result](https://github.com/DaniilSerga/rsschool-cv/assets/87036978/af9db2c6-930f-4b12-b4e2-4990a9a4672a)
 + Russian - Native
 + Belarusian - Intermediate
