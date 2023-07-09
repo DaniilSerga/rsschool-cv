@@ -326,14 +326,14 @@ main {
 
 .codeExampleWrapper > p:first-of-type {
     color: #292929;
-    font-family: 'Sergoe UI';
+    font-family: 'Segoe UI';
     font-size: 20px;
     font-weight: 700;
 }
 
 .codeExampleWrapper > p:nth-child(2) {
     color: #292929;
-    font-family: 'Sergoe UI';
+    font-family: 'Segoe UI';
     font-size: 18px;
 }
 
