@@ -3,3 +3,355 @@
     padding: 0;
     overflow-x: hidden;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('./assets/background.webp');
+    background-size: cover;
+}
+
+.sectionsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.mainInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 320px;
+    background-color: #629ed3;
+}
+
+.avatarSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.avatarContainer {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.avatarContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(255, 255, 255, .4);
+}
+
+.heading {
+    padding: 10px 20px;
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+    font-size: 26px;
+    font-weight: 400;
+    background-color: #3f94df;
+}
+
+.contactsContainer,
+.languagesListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    width: fit-content;
+    padding: 15px 20px;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactItem > img {
+    max-width: 27px;
+}
+
+.contactText {
+    color: #ffffff;
+    font-family: 'Lucida Sans';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.languageItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.languageItem > p {
+    color: #ffffff;
+    font-family: 'Lucida Sans';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.languageLevel {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.languageLevel > div {
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.filledCircle {
+    background-color: #ffffff;
+}
+
+.filledCircle > p {
+    font-family: 'Segoe UI';
+    color: #292929;
+}
+
+.unfilledCircle {
+    background-color: rgba(0, 92, 172, 0.2);
+}
+
+.unfilledCircle > p {
+    font-family: 'Segoe UI';
+    color: #ffffff;
+}
+
+.skillsList {
+    max-width: 280px;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px 10px;
+}
+
+.skillsList > li {
+    display: flex;
+    justify-content: center;
+    padding: 5px 8px;
+    color: #292929;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.additionalInfoContainer {
+    width: fit-content;
+    padding: 15px 30px;
+    background-color: #fcfcfc;
+}
+
+.personalInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 130px;
+    font-family: 'Lucida Sans';
+}
+
+.personalInfoContainer > h2 {
+    color: #292929;
+    font-size: 34px;
+    letter-spacing: .95px;
+    text-transform: uppercase;
+}
+
+.personalInfoContainer > h3 {
+    color: #292929;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.ageContainer {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    color: #292929;
+}
+
+.headingLight {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 3px solid #3f94df;
+}
+
+.headingLight > h3 {
+    color: #292929;
+    font-family: 'Trebuchet MS';
+    font-size: 26px;
+}
+
+.workExperienceContainer {
+    margin-top: 30px;
+}
+.workPlacesListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.workPlaceItem {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.workingDate {
+    max-width: 100px;
+}
+
+.workingDate > p {
+    color: #292929;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+.organizationName {
+    color: #292929;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.position {
+    color: #292929;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+.stackListContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.stackListContainer > p {
+    padding-top: 2px;
+    color: #292929;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+.stackList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.stackList > li {
+    padding: 3px 6px;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    background-color: #cecece;
+    border-radius: 5px;
+}
+
+.educationContainer {
+    margin-top: 30px;
+}
+
+.universityContainer {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.educationDates {
+    max-width: 100px;
+    color: #292929;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+.universityName {
+    color: #292929;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.specializationContainer {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.specialityContainer {
+    display: flex;
+    gap: 5px;
+}
+
+.specializationContainer > p,
+.specialityContainer > p {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+.specializationContainer > p:first-of-type,
+.specialityContainer > p:first-of-type {
+    color: #292929;
+    font-weight: 500;
+}
+
+.aboutMeContainer {
+    margin-top: 20px;
+}
+
+.aboutMeWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 700px;
+    margin-top: 20px;
+    font-family: 'Segoe UI';
+}
+
+.footerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #629ed3;
+}
+
+.githubInfoContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.githubInfoContainer > a {
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+.githubInfoContainer > img {
+    max-width: 30px;
+}
+
+.rsschoolInfoContainer {
+    width: 100px;
+}
