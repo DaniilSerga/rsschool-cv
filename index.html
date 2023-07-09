@@ -125,7 +125,7 @@
 
         <section class="additionalInfoContainer">
           <div class="personalInfoContainer">
-            <h2>Daniil Serga</h2>
+            <h1>Daniil Serga</h1>
             <h3>Frontend developer</h3>
             <div class="ageContainer">
               <p>Date of birth: 11.07.2003</p>
@@ -199,6 +199,27 @@
                 </div>
               </li>
             </ul>
+          </div>
+          <div class="codeExampleContainer">
+            <div class="headingLight">
+              <h3>Code example</h3>
+            </div>
+            <div class="codeExampleWrapper">
+              <p>5KYU | RGB To Hex Conversion (Codewars Task)</p>
+              <p>The rgb function is incomplete. Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned. Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.</p>
+              <pre>
+                <code class="codeExample">
+                  function rgb(r, g, b) {
+                    return [r, g, b].map((value) => {
+                      value = value < 0 ? 0 : value;
+                      value = value > 255 ? 255 : value;
+                      value = value.toString(16).toUpperCase();
+                      return value.length == 1 ? '0' + value : value;
+                    }).join('');  
+                  }
+                </code>
+              </pre>
+            </div>
           </div>
           <div class="aboutMeContainer">
             <div class="headingLight">

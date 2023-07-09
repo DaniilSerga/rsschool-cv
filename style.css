@@ -168,7 +168,7 @@ main {
     font-family: 'Lucida Sans';
 }
 
-.personalInfoContainer > h2 {
+.personalInfoContainer > h1 {
     color: #292929;
     font-size: 34px;
     letter-spacing: .95px;
@@ -313,6 +313,28 @@ main {
 .specialityContainer > p:first-of-type {
     color: #292929;
     font-weight: 500;
+}
+
+.codeExampleContainer {
+    margin-top: 30px;
+}
+
+.codeExampleWrapper {
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+.codeExampleWrapper > p:first-of-type {
+    color: #292929;
+    font-family: 'Sergoe UI';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.codeExampleWrapper > p:nth-child(2) {
+    color: #292929;
+    font-family: 'Sergoe UI';
+    font-size: 18px;
 }
 
 .aboutMeContainer {
